@@ -2,7 +2,7 @@
   "build": {
     "distDir": "../dist",
     "devPath": "http://localhost:3000",
-    "beforeDevCommand": "cross-env BROWSER=none yarn run start",
+    "beforeDevCommand": "cross-env BROWSER=none HOST=localhost PORT=3000 yarn run start",
     "beforeBuildCommand": "yarn run build"
   },
   "ctx": {},

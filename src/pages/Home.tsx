@@ -12,7 +12,7 @@ export const HomePage: React.FC<Props> = () => {
     return (
         <Box>
             <Heading level={3}>Welcome to Tauri</Heading>
-            <Text >Does this auto reload: no</Text>
+            <Text >Does this auto reload:1</Text>
         </Box>
     )
 }
