@@ -21,7 +21,6 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.0",
-    "tauri": "^0.6.2",
     "typescript": "~3.7.2"
   },
   "scripts": {

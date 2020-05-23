@@ -29,7 +29,7 @@ function App() {
         <Grommet theme={Theme} themeMode={darkTheme ? "dark" : "light"} full>
           <Box background="brand" fill="vertical" >
             <Grid
-              rows={["auto", "flex", "small"]}
+              rows={["auto", "auto", "small"]}
               columns={["full"]}
               areas={[
                 { name: "header", start: [0, 0], end: [1, 0] },

@@ -7,7 +7,7 @@ export const Theme: ThemeType = deepFreeze({
   defaultMode: "dark",
   global: {
     font: {
-      family: "Gordita",
+      family: "Arial",
     },
     colors: {
       green: {
@@ -63,21 +63,5 @@ export const Theme: ThemeType = deepFreeze({
     active: {
       color: "#fff",
     },
-  },
-  button: {
-    border: {
-      color: "green",
-      width: "10px",
-    },
-    primary: {
-      color: "green",
-      width: "2px",
-    },
-  },
-  select: {
-    background: "white",
-  },
-  anchor: {
-    color: "orange",
   },
 });

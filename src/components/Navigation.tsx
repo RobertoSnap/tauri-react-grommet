@@ -1,8 +1,8 @@
 import React from "react";
-import { Box, ResponsiveContext, Heading, Text } from "grommet"
+import { Box, Heading, /* ResponsiveContext */ } from "grommet"
 
 export const Navigation: React.FC = () => {
-    const size = React.useContext<string>(ResponsiveContext);
+    // const size = React.useContext<string>(ResponsiveContext);
 
 
     return (
@@ -14,7 +14,6 @@ export const Navigation: React.FC = () => {
             <Box pad={{ left: "large", right: "large" }}>
 
                 <Heading>Tauri</Heading>
-                <Text>{"Size: " + size}</Text>
 
             </Box>
 
